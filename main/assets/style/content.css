@@ -1,0 +1,347 @@
+
+/* logo */
+.logo__content{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 32px;
+   
+}
+.logo__content-box,
+.logo__content-box2{
+    display: flex;
+    gap: 32px;
+}
+.logo__content img{
+    transition: .5s;
+}
+.logo__content img:hover{
+    transform: scale(1.3);
+}
+
+
+/* logo */
+
+/* materials */
+.materials{
+    padding: 130px 0 ;
+}
+.materials__content h2{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+text-transform: uppercase;
+color: var(--whiteColor);
+}
+.materials__box-info{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.materials__box-info p{
+    max-width: 963px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: var(--whiteColor);
+}
+.materials__box-text{
+    display: flex;
+    justify-content:end;
+    margin-right:20px ;
+    margin-top: -20px;
+}
+/* materials */
+
+
+
+/* products */
+
+
+.products{
+    padding-top: 50px;
+    padding-bottom: 87px;
+}
+
+.products__item{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products__item-card{
+    max-width: 328px ;
+    min-height: 500px ;
+    position: relative;
+  
+}
+.products__item-card img{
+  transition: .5s;
+}
+.products__item-card img:hover{
+ transform: scale(1.1);
+
+}
+/* надо разабраться что с трансформом при наведении мышы */
+
+.products__item-card-info{
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end ;
+    align-items: center;    
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 16px;  
+    
+}
+
+.products__item-card-info h2
+{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: var(--whiteColor);
+
+}
+.products__item-card-info p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+text-transform: uppercase;
+color: var(--whiteColor);
+z-index: 1999;
+}
+
+
+
+/* products */
+.preview{
+
+    padding-top: 60px ;
+    padding-bottom: 69px;
+   
+}
+
+.preview__item-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.preview__title{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+text-transform: uppercase;
+color: var(--whiteColor);
+}
+.preview__item-text{
+    display: flex;
+    justify-content: flex-end;
+}
+.preview__item-text p{
+    max-width: 963px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--whiteColor);
+}
+.preview__statistics{
+    display: flex; 
+  justify-content: space-between;
+    margin-top: 60px;
+}
+.preview__statistics-item{
+    padding: 24px 0px;
+    border-right: 1px solid #126c64;
+border-top: 1px solid #126c64;
+min-width: 317px;
+min-height: 174px
+}
+.preview__statistics-solid{
+    padding: 24px 0px;
+        border-right: 1px solid #cb925d;
+border-top: 1px solid #cb925d;
+min-width: 317px;
+min-height: 174px
+}
+
+.preview__statistics-text{
+    min-width: 317px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+text-transform: uppercase;
+color: #126c64
+}
+.preview__statistics-info{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #cb925d  ;
+}
+
+
+
+
+
+
+
+
+
+
+.building{
+background:url('../images/bg/bgBulding.png');
+background-position:center ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+display: flex;
+padding-bottom: 52px;
+padding-left: 50px;
+}
+
+
+.building__content{
+    display: flex;
+    flex-direction: column;
+   justify-content: end;
+
+}
+
+.building__item h1{
+    max-width: 681px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+color: var(--whiteColor);
+
+}
+
+.building__item p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: var(--whiteColor);
+margin-top: 24px;
+}
+
+
+.questions{
+    padding: 50px 0;
+}
+.questions__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.questions__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.questions__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;  
+}
+.questions__list-grin{
+    max-width: 1272px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #126c64;
+border-bottom:1px solid #126c64;
+position: relative;
+}
+.questions__list-grin img{
+    position: absolute;
+    top: 3;
+    right: 0;
+}
+
+.questions__list-gold{
+    max-width: 1272px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #cb925d;
+border-bottom:1px solid #cb925d;
+position: relative;
+}
+
+.questions__list-gold img{
+    position: absolute;
+    top: 3;
+    right: 0;}
+
+.footer__content{
+    background: url('../images/foterbg.png');
+    background-position:center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.footer__item{
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+    
+    .footer{
+        padding:64px 0 48px 0;
+    }
+    .footer__item-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px 0 50px;
+    }
+    .footer__mesenjer{
+        display: flex;
+        
+        gap: 18px;
+    }
+    .footer__contacts-box{
+        display: flex;
+        gap: 16px;
+    }
+    .footer__link-box{
+display: flex;
+gap: 16px;
+    }
+
+    .footer__link,
+    .footer__contacts-text{
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: var(--whiteColor);
+transition: .5s;
+    }
+    .footer__link:hover{
+        color:gold;
+    }
+    .footer__end-text{
+        padding-left: 50px;
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.5);
+    }
