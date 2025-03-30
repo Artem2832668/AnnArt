@@ -89,7 +89,7 @@ transition: .5s;
   
 }
 .nav__btn::after{
-    content: url('../images/Line.svg');
+    content: url('../images/strelki/Line.svg');
  position: absolute;
  top: 12px;
  right: 17px;

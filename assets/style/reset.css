@@ -45,9 +45,16 @@ body{
     background:var(--formBtnColor) ;
 }
 .btnPoje::after{
-    content: url('../images/Line.svg');
+    max-width: 100%;
+    content: url('../images/strelki/Line.svg');
     position: absolute;
     top: 13px;
     right:12px;
 
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
 }

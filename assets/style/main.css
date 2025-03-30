@@ -59,7 +59,7 @@ transition: .5s;
   background:var(--formBtnColor) ;
 }
 .header__btn::after{
-    content: url('../images/Line.svg');
+    content: url('../images/strelki/Line.svg');
     position: absolute;
     top: 11px;
     right:12px;
@@ -67,7 +67,8 @@ transition: .5s;
 }   
 .header__img{
     min-height: 455px;
-    background: url('../images/headerBg.png') ;
+    width: 100%;
+    background: url('../images/bg/headerBg.png') ;
    background-position: center;
 background-repeat: no-repeat;
 background-size: cover;

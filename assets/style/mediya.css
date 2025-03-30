@@ -9,6 +9,7 @@
         flex-direction: row ;
         padding: 0 10px;
         gap: 10px;
+        align-items: center;
     }
 /* .projects */
 .projects__content-title{
@@ -100,6 +101,7 @@ font-size: 15px;
    }
    .services__item{
     flex-wrap: wrap;
+    justify-content: center;
    }
    /* product */
    .products__title{
@@ -114,6 +116,7 @@ font-size: 15px;
     /* products */
 .products__title-box{
     flex-wrap: wrap;
+   justify-content: center;
 gap: 10px;
 }
 .products__info{
@@ -153,7 +156,7 @@ gap: 10px;
 }
 .stages__item-box{
     flex-wrap: wrap;    
-    gap: 15px;
+    gap: 15px;justify-content: center;
 }
 .stages__item-list{
     min-height: 411px;
@@ -214,6 +217,7 @@ gap: 10px;
     
     
     @media (max-width:768px){
+        
         /* preview */
         .preview__title{    
             font-size: 35px;
@@ -355,7 +359,7 @@ gap: 10px;
             flex-wrap: wrap;
         }
         .projects__title{
-            font-size: 42px;
+            font-size: 30px;
         }
         .projects__text{
             font-size: 13px;
