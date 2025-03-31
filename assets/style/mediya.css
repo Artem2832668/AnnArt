@@ -103,6 +103,9 @@ font-size: 15px;
     flex-wrap: wrap;
     justify-content: center;
    }
+   .services__item-box {
+    min-height: 550px;
+   }
    /* product */
    .products__title{
     font-size: 40px;
@@ -116,7 +119,7 @@ font-size: 15px;
     /* products */
 .products__title-box{
     flex-wrap: wrap;
-   justify-content: center;
+  
 gap: 10px;
 }
 .products__info{
@@ -136,11 +139,12 @@ gap: 10px;
     font-size: 16px;
 }
 .precess__item{
-    gap: 400px;
+    gap: 100px;
 }
 .precess__item-box2{
     gap: 200px;
 }
+
 /* stages */
 .stages__content h1{
     font-size: 44px;  
@@ -269,7 +273,7 @@ gap: 10px;
     font-size: 32px;
    }
    .service__list-previy{
-    font-size: 18px;
+    font-size: 16px;
    }
    .service__list-text,
 .services__list-previydop{
@@ -279,6 +283,9 @@ gap: 10px;
 
  .products__info{
     font-size: 16px;
+ }
+ .products__item{
+    justify-content: center;
  }
  /* precess */
  .precess__item{
@@ -312,6 +319,9 @@ gap: 10px;
     font-size: 18px;
 }
 /* choice */
+.choice__box-item {
+    justify-content: center;
+}
 .choice__content h1{
     font-size: 44px;
 }
@@ -342,7 +352,13 @@ gap: 10px;
         .preview__title{
             font-size: 32px;
         }
-    
+    .preview__title__text{
+        min-width:500px ;
+    }
+    .preview__list{
+        gap: 15px;
+        min-width: 500px;
+    }
         .preview__item-info{
             align-items: flex-start;
             flex-direction: column;

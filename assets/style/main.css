@@ -19,10 +19,30 @@ color: #fff;
    margin-top: -60px;
     font-family: var(--font-family);
 font-weight: 700;
-font-size: 64px;
+font-size: 47px;
 text-transform: uppercase;
-color: #fff
+color: var(--whiteColor);
 }
+
+/* Именение заголовка  "От идеи до идеала " */
+.header__item__control{
+  display: flex;
+  margin-left: 120px;
+    margin-top: -20px;
+  
+}
+.header__item-title1{
+    margin-left: 260px;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 60px;
+text-transform: uppercase;
+color: var(--whiteColor);
+}
+.header__item-title1 span{
+  font-size:47px;
+}
+/* Именение заголовка  "От идеи до идеала " */
 .header__item-box{
     margin-left: 445px;
     margin-top: 16px;
@@ -100,6 +120,19 @@ background-size: cover;
             font-size: 40px;
             margin-left: 40px;
           }
+
+
+          .header__item__control{
+            margin-top: -20px;
+            margin-left:-40px;
+            
+          }
+          .header__item-title1{
+            font-size:55px ;
+        }
+          .header__item-title1 span{
+            font-size:40px;
+          }
             .header__item-text{
     font-size: 14px;
     
@@ -109,7 +142,7 @@ background-size: cover;
     min-width: 265px;
   }
   .header__btn::after{
-    content: url('../images/Line.svg');
+    content: url('../images/strelki/Line.svg');
     position: absolute;
     top: 12px;
     right:12px;
@@ -132,6 +165,16 @@ margin-left: 80px;}
         margin-top: -20px;
         font-size: 35px;
         margin-left: 20px;
+      }
+      .header__item__control{
+        margin-top: -20px;
+        margin-left:-80px;
+      }
+      .header__item-title1{
+        font-size:50px ;
+    }
+      .header__item-title1 span{
+        font-size:35px;
       }
       .header__item-text{
         font-size: 17px;
@@ -160,6 +203,13 @@ margin-left: 80px;}
         font-size:  24px;
         margin-left: 20px;
       }
+      .header__item-title1{
+        font-size:43px ;
+    }
+    .header__item__control{
+      margin-top: -20px;
+      margin-left:-120px;
+    }
       .header__item-text{
         font-size: 16px;
         

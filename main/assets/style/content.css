@@ -17,7 +17,7 @@
     transition: .5s;
 }
 .logo__content img:hover{
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 
