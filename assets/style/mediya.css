@@ -353,11 +353,11 @@ gap: 10px;
             font-size: 32px;
         }
     .preview__title__text{
-        min-width:500px ;
+        min-width:450px ;
     }
     .preview__list{
         gap: 15px;
-        min-width: 500px;
+        min-width: 450px;
     }
         .preview__item-info{
             align-items: flex-start;
