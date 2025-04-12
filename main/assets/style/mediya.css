@@ -15,11 +15,10 @@
 .logo__content-box,
 .logo__content-box2{
     flex-wrap: wrap;
+   
+        justify-content: center;
 }
-.logo__content img{
-    max-width: 40vh;
-    
-}
+
 .logo__content img{
     transition: .5s;
 }
@@ -61,10 +60,6 @@
 .logo__content-box2{
     gap: 20px;
 }
-.logo__content img{
-    max-width: 33vh;
-}
-
 /* logo */
 
 
@@ -220,6 +215,18 @@ gap: 10px;
 .questions__list-gold{
     font-size: 34px;
 }
+/* materials */
+.materials__content h2{
+font-size:46px ;
+}
+.materials__box-info{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.materials__box-info p{
+    font-size: 18px;
+}
+/* materials */
 /* footer */
 .footer__link,
 .footer__contacts-text{
@@ -245,7 +252,7 @@ gap: 10px;
         /* logo */
 .logo__content-box,
 .logo__content-box2{
-   flex-direction: row; 
+   
     gap: 18px;
 }
 
@@ -257,7 +264,9 @@ gap: 10px;
         flex-wrap: wrap;    
         gap: 20px;
     }
-    
+    .preview__item-text p{
+        font-size: 22px;
+    }
 
 /*.projects  */
 
@@ -311,9 +320,13 @@ gap: 10px;
  .products__info{
     font-size: 16px;
  }
+ .products__item{
+    justify-content: center;
+ }
  /* precess */
  .precess__item{
     gap: 300px;
+
 }
 .precess__item-box2{
     gap:100px;
@@ -342,6 +355,9 @@ gap: 10px;
 .building__item p{
     font-size: 18px;
 }
+.building__content{
+    justify-content: center;
+}
 /* choice */
 .choice__content h1{
     font-size: 44px;
@@ -360,6 +376,22 @@ gap: 10px;
 .questions__list-gold{
     font-size: 32px;
 }
+/* questions */
+/* materials */
+.materials__content h2{
+    font-size:44px ;
+    }
+    .materials__box-info{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .materials__box-info p{
+        font-size: 16px;
+    }
+    .materials__box-text {
+justify-content: center;
+    }
+    /* materials */
 /* footer */
 .footer__link,
 .footer__contacts-text{
@@ -377,6 +409,9 @@ gap: 10px;
         .preview__item-info{
             align-items: flex-start;
             flex-direction: column;
+        }
+        .preview__item-text p{
+            font-size: 20px;
         }
         /* .projects */
         .projects__content-title{
@@ -446,6 +481,13 @@ gap: 10px;
 .questions__list-gold{
     font-size: 30px;
 }
+/* questions */
+
+/*materials  */
+.materials__box-text {
+      margin-top: 0;  
+}
+/*materials  */
 /* footer */
 
     }

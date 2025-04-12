@@ -1,6 +1,7 @@
 @media (max-width:1400px){
-
-
+        /* .preview__statistics {
+            flex-wrap: wrap;
+        } */
     }
 @media (max-width:1200px){
 /* preview  */
@@ -343,6 +344,8 @@ gap: 10px;
 .footer__link,
 .footer__contacts-text{
     font-size: 16px;
+    
+
 }
 
     }
@@ -357,7 +360,7 @@ gap: 10px;
     }
     .preview__list{
         gap: 15px;
-        min-width: 450px;
+        max-width: 380px;
     }
         .preview__item-info{
             align-items: flex-start;

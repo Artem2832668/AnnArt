@@ -11,7 +11,9 @@
   color: var(--whiteColor);
 }
 .header__content{
- padding: 50px 0 150px;
+ padding-top: 50px;
+ padding-bottom: 150px;
+ padding-left: 10px;
 }
 .header__item-img{
   display: flex;
@@ -34,7 +36,10 @@ color: var(--whiteColor);
 }
 
 @media (max-width:1200px){
-
+  .header__content {
+    
+    padding-left: 10px;
+}
     }
     
     

@@ -1,0 +1,173 @@
+@media (max-width:1400px){
+
+
+    }
+@media (max-width:1200px){
+
+
+.projects__content-title{
+    font-size: 44px;
+}
+.preview__statistics-item,
+.preview__statistics-solid{
+    width: 380px;
+}
+.projects__collection{
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+    }
+    
+    
+    @media (max-width:992px){
+    /*.projects  */
+    .projects__content-title{
+        font-size: 42px;
+    }
+
+    .projects__content__text{
+        font-size: 15px;
+    }
+    .projects__item a{
+        font-size: 18px;
+    }
+    .projects__title{
+        font-size: 34px;
+    }
+
+/* building */
+.building__item h1,
+.building__item span{font-size: 46px;}
+
+/* questions */
+.questions__title{
+    font-size: 46px;
+}
+.questions__list-grin,
+.questions__list-gold{
+    font-size: 34px;
+}
+
+/* footer */
+.footer__link,
+.footer__contacts-text{
+    font-size: 18px;
+}
+.footer__item{
+    flex-direction: column;
+    gap: 66px;
+}
+.footer__item-box{
+    flex-wrap: wrap;
+    
+}
+.footer__contacts-box,.footer__link-box{
+    flex-direction: column;
+}
+    }
+    
+    
+    @media (max-width:768px){
+
+
+
+/*.projects  */
+
+
+.projects__content-title{
+    font-size: 42px;
+}
+
+.projects__content__text{
+    font-size: 14px;
+}
+
+
+.projects__item a{
+    font-size: 16px;
+}
+.projects__title{
+    font-size: 32px;
+}
+.projects__text{
+    font-size: 14px;
+}
+
+
+
+
+
+/* building */
+.building__item h1,
+.building__item span{font-size: 44px;}
+.building__item p{
+    font-size: 18px;
+}
+.building__content{
+    justify-content: center;
+}
+
+/* questions */
+.questions__title{
+    font-size: 44px;
+}
+.questions__list-grin,
+.questions__list-gold{
+    font-size: 32px;
+}
+/* questions */
+
+/* footer */
+.footer__link,
+.footer__contacts-text{
+    font-size: 16px;
+}
+
+    }
+    
+    @media (max-width:578px){
+     
+        /* .projects */
+        .projects__content-title{
+            font-size: 40px;
+        }
+
+        .projects__content__text{
+            font-size: 14px;
+        }
+        .projects__item{
+            flex-wrap: wrap;
+        }
+        .projects__title{
+            font-size: 42px;
+        }
+        .projects__text{
+            font-size: 13px;
+        }
+     
+
+    
+        /* building */
+        .building__item h1,
+        .building__item span{font-size: 42px;}
+        /* choice */
+.choice__content h1{
+    font-size: 42px;
+}
+.choice__title-text{
+    font-size: 30px;
+}
+/* questions */
+.questions__title{
+    font-size: 42px;
+}
+.questions__list-grin,
+.questions__list-gold{
+    font-size: 30px;
+}
+
+
+/* footer */
+
+    }

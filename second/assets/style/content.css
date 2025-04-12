@@ -1,0 +1,240 @@
+
+
+
+
+/* projects */
+.projects{
+    padding: 60px 0; 
+ }
+ .projects__content-title{
+     font-weight: 400;
+ font-size: 48px;
+ text-transform: uppercase;
+ color: var(--whiteColor);
+ }
+ 
+ .projects__content__text{
+     max-width: 473px;
+     max-height: 147px;
+    text-align:left;
+    margin-top: 29px;
+    margin-bottom:50px ;
+     font-family: var(--font-family);
+ font-weight: 400;
+ font-size: 16px;
+ text-transform: uppercase;
+ color: var(--whiteColor);
+ }
+ .projects__item{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .projects__item a{
+     font-family: var(--font-family);
+     font-weight: 400;
+     font-size: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     color: #fff;
+     padding: 10px;
+     transition: .5s;
+ }
+ .projects__item a:hover{
+   color: #cb925d    ;
+ }
+ 
+ .projects__collection{
+     margin-top: 60px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ 
+  gap: 20px;
+ 
+ }
+ 
+ 
+ .projects__collecteon-card{
+    max-width: 640px;
+ min-height: 480px;
+ 
+ }
+     
+ .projects__title{
+     font-family: var(--second-family);
+ font-weight: 400;
+ font-size: 36px;
+ text-transform: uppercase;
+ color: var(--whiteColor);
+ margin-top: 24px;
+ margin-bottom: 16px;
+ }
+  .project__btn{
+     margin-top:24px ;
+  
+  }
+ 
+ .projects__text{
+     font-family: var(--font-family);
+     font-weight: 400;
+     font-size: 16px;
+     text-transform: uppercase;
+     color: var(--whiteColor);     
+ }
+/* projects */
+
+
+
+
+
+
+
+
+
+
+.building{
+background:url('../images/bg/BG.png');
+background-position:center ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+display: flex;
+padding-bottom: 52px;
+padding-left: 50px;
+}
+
+
+.building__content{
+    display: flex;
+    flex-direction: column;
+   justify-content: end;
+
+}
+
+.building__item h1{
+    max-width: 681px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+color: var(--whiteColor);
+
+}
+
+.building__item p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: var(--whiteColor);
+margin-top: 24px;
+}
+
+
+.questions{
+    padding: 50px 0;
+}
+.questions__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.questions__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.questions__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;  
+}
+.questions__list-grin{
+    max-width: 1272px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #126c64;
+border-bottom:1px solid #126c64;
+position: relative;
+}
+.questions__list-grin img{
+    position: absolute;
+    top: 3;
+    right: 0;
+}
+
+.questions__list-gold{
+    max-width: 1272px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #cb925d;
+border-bottom:1px solid #cb925d;
+position: relative;
+}
+
+.questions__list-gold img{
+    position: absolute;
+    top: 3;
+    right: 0;}
+
+.footer__content{
+    background: url('../images/foterbg.png');
+    background-position:center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.footer__item{
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+    
+    .footer{
+        padding:64px 0 48px 0;
+    }
+    .footer__item-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px 0 50px;
+    }
+    .footer__mesenjer{
+        display: flex;
+        
+        gap: 18px;
+    }
+    .footer__contacts-box{
+        display: flex;
+        gap: 16px;
+    }
+    .footer__link-box{
+display: flex;
+gap: 16px;
+    }
+
+    .footer__link,
+    .footer__contacts-text{
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: var(--whiteColor);
+transition: .5s;
+    }
+    .footer__link:hover{
+        color:gold;
+    }
+    .footer__end-text{
+        padding-left: 50px;
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.5);
+    }

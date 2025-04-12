@@ -17,7 +17,7 @@
     transition: .5s;
 }
 .logo__content img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 
@@ -70,6 +70,7 @@ color: var(--whiteColor);
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .products__item-card{
     max-width: 328px ;

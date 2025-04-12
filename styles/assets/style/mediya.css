@@ -1,0 +1,97 @@
+@media (max-width:1400px){
+
+
+    }
+@media (max-width:1200px){
+
+
+
+
+}
+    
+    @media (max-width:992px){
+
+/* building */
+.building__item h1,
+.building__item span{font-size: 46px;}
+
+/* questions */
+.questions__title{
+    font-size: 46px;
+}
+.questions__list-grin,
+.questions__list-gold{
+    font-size: 34px;
+}
+/* questions */
+/* footer */
+.footer__link,
+.footer__contacts-text{
+    font-size: 18px;
+}
+.footer__item{
+    flex-direction: column;
+    gap: 66px;
+}
+.footer__item-box{
+    flex-wrap: wrap;
+    
+}
+.footer__contacts-box,.footer__link-box{
+    flex-direction: column;
+}
+/* footer */
+    }
+    
+    
+    @media (max-width:768px){
+/* building */
+.building__item h1,
+.building__item span{font-size: 44px;}
+.building__item p{
+    font-size: 18px;
+}
+.building__content{
+    justify-content: center;
+}
+/* building */
+/* questions */
+.questions__title{
+    font-size: 44px;
+}
+.questions__list-grin,
+.questions__list-gold{
+    font-size: 32px;
+}
+/* questions */
+
+/* footer */
+.footer__link,
+.footer__contacts-text{
+    font-size: 16px;
+}
+/* footer */
+
+    }
+    
+    @media (max-width:578px){
+        /* building */
+        .building__item h1,
+        .building__item span{font-size: 42px;}
+        /* choice */
+.choice__content h1{
+    font-size: 42px;
+}
+.choice__title-text{
+    font-size: 30px;
+}
+/* questions */
+.questions__title{
+    font-size: 42px;
+}
+.questions__list-grin,
+.questions__list-gold{
+    font-size: 30px;
+}
+/* footer */
+}
